@@ -39,7 +39,7 @@ public class WndGame extends Window {
 	private static final String TXT_MENU		= "Main Menu";
 	private static final String TXT_EXIT		= "Exit Game";
 	private static final String TXT_RETURN		= "Return to Game";
-	
+
 	private static final int WIDTH		= 120;
 	private static final int BTN_HEIGHT	= 20;
 	private static final int GAP		= 2;

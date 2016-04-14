@@ -25,6 +25,8 @@ import android.content.res.AssetFileDescriptor;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 
+import com.joshua.wwise;
+
 public enum Music implements MediaPlayer.OnPreparedListener, MediaPlayer.OnErrorListener {
 	
 	INSTANCE;
@@ -35,7 +37,15 @@ public enum Music implements MediaPlayer.OnPreparedListener, MediaPlayer.OnError
 	private boolean lastLooping;
 	
 	private boolean enabled = true;
-	
+
+	private wwise wise;
+
+	public void Initialize()
+	{
+		wise = new wwise();
+		wise.Message();
+	}
+
 	public void play( String assetName, boolean looping ) {
 		
 		if (isPlaying() && lastPlayed.equals( assetName )) {

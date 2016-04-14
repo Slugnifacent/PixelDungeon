@@ -137,6 +137,7 @@ public class PixelDungeon extends Game {
 		}
 		
 		Music.INSTANCE.enable( music() );
+		Music.INSTANCE.Initialize();
 		Sample.INSTANCE.enable( soundFx() );
 		
 		Sample.INSTANCE.load( 

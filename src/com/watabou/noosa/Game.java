@@ -147,6 +147,7 @@ public class Game extends Activity implements GLSurfaceView.Renderer, View.OnTou
 		destroyGame();
 		
 		Music.INSTANCE.mute();
+		Music.INSTANCE.Exit();
 		Sample.INSTANCE.reset();
 	}
 
@@ -297,7 +298,9 @@ public class Game extends Activity implements GLSurfaceView.Renderer, View.OnTou
 			Keys.processTouchEvents( keysEvents );
 			keysEvents.clear();
 		}
-		
+
+		Music.INSTANCE.Update();
+
 		scene.update();		
 		Camera.updateAll();
 	}

@@ -34,14 +34,17 @@ public class wwise {
         initialized = true;
     }
 
-    public string Update() {
-        string result = ProcessAudio();
+    public String Update() {
+        String result = "";
+        if(initialized) {
+            result = ProcessAudio();
+        }
         return result;
     }
 
-    public string Exit() {
+    public String Exit() {
         initialized = false;
-        string result = Close();
+        String result = Close();
         return result;
     }
 

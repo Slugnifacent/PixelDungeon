@@ -43,7 +43,17 @@ public enum Music implements MediaPlayer.OnPreparedListener, MediaPlayer.OnError
 	public void Initialize()
 	{
 		wise = new wwise();
-		wise.Message();
+		wise.Init();
+	}
+
+	public void Update()
+	{
+		wise.Update();
+	}
+
+
+	public void Exit() {
+		wise.Exit();
 	}
 
 	public void play( String assetName, boolean looping ) {
@@ -143,4 +153,5 @@ public enum Music implements MediaPlayer.OnPreparedListener, MediaPlayer.OnError
 	public boolean isEnabled() {
 		return enabled;
 	}
+
 }

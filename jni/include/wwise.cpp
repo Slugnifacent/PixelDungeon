@@ -119,6 +119,44 @@ CAkFilePackageLowLevelIOBlocking g_lowLevelIO;
         return env->NewStringUTF("Sound Initialization Success");
    }
 
+
+    JNIEXPORT jstring JNICALL Java_com_joshua_wwise_ProcessAudio (JNIEnv *env, jobject thisObj){
+        AK::SoundEngine::RenderAudio();
+        return env->NewStringUTF("");
+    }
+
+    JNIEXPORT jstring JNICALL Java_com_joshua_wwise_Close (JNIEnv *env, jobject thisObj){
+            //
+            // Terminate the music engine
+            // music engine should be terminated before the sound engine.
+            //
+
+            AK::MusicEngine::Term();
+
+    //
+    // Terminate the sound engine
+    //
+
+    AK::SoundEngine::Term();
+
+    // Terminate the streaming device and streaming manager
+
+    // CAkFilePackageLowLevelIOBlocking::Term() destroys its associated streaming device
+    // that lives in the Stream Manager, and unregisters itself as the File Location Resolver.
+
+    g_lowLevelIO.Term();
+
+    if ( AK::IAkStreamMgr::Get() )
+        AK::IAkStreamMgr::Get()->Destroy();
+
+    // Terminate the Memory Manager
+    AK::MemoryMgr::Term();
+
+        return env->NewStringUTF("Wwise Exited");
+
+
+    }
+
    JNIEXPORT jstring JNICALL Java_com_joshua_wwise_getMessage (JNIEnv *env, jobject thisObj) {
 
     AkInitSettings initSettings;
@@ -131,13 +169,13 @@ CAkFilePackageLowLevelIOBlocking g_lowLevelIO;
         return env->NewStringUTF("Could not initialize the Sound Engine.");
     }
 
-        AkMusicSettings musicInit;
-        AK::MusicEngine::GetDefaultInitSettings( musicInit );
+    AkMusicSettings musicInit;
+    AK::MusicEngine::GetDefaultInitSettings( musicInit );
 
-        if ( AK::MusicEngine::Init( &musicInit ) != AK_Success )
-        {
-            return env->NewStringUTF("Could not initialize the Music Engine.");
-        }
+    if ( AK::MusicEngine::Init( &musicInit ) != AK_Success )
+    {
+        return env->NewStringUTF("Could not initialize the Music Engine.");
+    }
 
     return env->NewStringUTF("Sound Initialization Success");
 

@@ -17,6 +17,8 @@ extern "C" {
 
 JNIEXPORT jstring JNICALL Java_com_joshua_wwise_getMessage(JNIEnv *, jobject);
 JNIEXPORT jstring JNICALL Java_com_joshua_wwise_Initialize (JNIEnv *env, jobject thisObj);
+JNIEXPORT jstring JNICALL Java_com_joshua_wwise_ProcessAudio (JNIEnv *env, jobject thisObj);
+JNIEXPORT jstring JNICALL Java_com_joshua_wwise_Close (JNIEnv *env, jobject thisObj);
 
 
 }

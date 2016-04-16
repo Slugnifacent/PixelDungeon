@@ -12,19 +12,43 @@ public class wwise {
     }
 
     private native String Initialize();
+
     private native String getMessage();
 
-    public wwise()
-    {
+    private native String ProcessAudio();
 
+    private native String Close();
+
+    boolean initialized;
+
+    public wwise() {
+        initialized = false;
 
     }
 
-    public void Message()
-    {
-        String temp = getMessage();
-        if(temp != null) {
-            Log.d("Debug",temp);
+    public void Init() {
+        String temp = Initialize();
+        if (temp != null) {
+            Log.d("Debug", temp);
+        }
+        initialized = true;
+    }
+
+    public string Update() {
+        string result = ProcessAudio();
+        return result;
+    }
+
+    public string Exit() {
+        initialized = false;
+        string result = Close();
+        return result;
+    }
+
+    public void Message() {
+        String temp = Initialize();
+        if (temp != null) {
+            Log.d("Debug", temp);
         }
     }
 

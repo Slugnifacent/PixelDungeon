@@ -22,7 +22,17 @@ obj/local/armeabi/objs-debug/Wwise/include/wwise.o: jni/include/wwise.cpp \
  jni/AK/SoundEngine/Common/AkCallback.h \
  jni/AK/SoundEngine/Platforms/Android/AkAndroidSoundEngine.h \
  jni/AK/SoundEngine/Common/IAkStreamMgr.h \
- jni/AK/MusicEngine/Common/AkMusicEngine.h
+ jni/AK/MusicEngine/Common/AkMusicEngine.h \
+ jni/AK/SoundEngine/Common/AkModule.h \
+ jni/AkFilePackageLowLevelIOBlocking.h \
+ jni/../Common/AkFilePackageLowLevelIO.h \
+ jni/AK/SoundEngine/Common/AkStreamMgrModule.h \
+ jni/../Common/AkFilePackage.h jni/../Common/AkFilePackageLUT.h \
+ jni/AK/Tools/Common/AkObject.h jni/AK/Tools/Common/AkListBare.h \
+ jni/../Common/AkFilePackageLowLevelIO.inl \
+ jni/../Common/AkFilePackageLowLevelIO.h jni/AkFileHelpers.h \
+ jni/../Common/AkFileLocationBase.h jni/AK/Tools/Common/AkListBareLight.h \
+ jni/AkDefaultIOHookBlocking.h jni/AkFileHelpers.h
 
 jni/include/wwise.h:
 
@@ -81,3 +91,33 @@ jni/AK/SoundEngine/Platforms/Android/AkAndroidSoundEngine.h:
 jni/AK/SoundEngine/Common/IAkStreamMgr.h:
 
 jni/AK/MusicEngine/Common/AkMusicEngine.h:
+
+jni/AK/SoundEngine/Common/AkModule.h:
+
+jni/AkFilePackageLowLevelIOBlocking.h:
+
+jni/../Common/AkFilePackageLowLevelIO.h:
+
+jni/AK/SoundEngine/Common/AkStreamMgrModule.h:
+
+jni/../Common/AkFilePackage.h:
+
+jni/../Common/AkFilePackageLUT.h:
+
+jni/AK/Tools/Common/AkObject.h:
+
+jni/AK/Tools/Common/AkListBare.h:
+
+jni/../Common/AkFilePackageLowLevelIO.inl:
+
+jni/../Common/AkFilePackageLowLevelIO.h:
+
+jni/AkFileHelpers.h:
+
+jni/../Common/AkFileLocationBase.h:
+
+jni/AK/Tools/Common/AkListBareLight.h:
+
+jni/AkDefaultIOHookBlocking.h:
+
+jni/AkFileHelpers.h:

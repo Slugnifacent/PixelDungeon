@@ -10,10 +10,14 @@
 #include <AK/Tools/Common/AkPlatformFuncs.h>                    // Thread defines
 #include <AK/MusicEngine/Common/AkMusicEngine.h>
 
+
+
 jint JNI_OnLoad(JavaVM* vm, void* reserved);
 extern "C" {
 
 JNIEXPORT jstring JNICALL Java_com_joshua_wwise_getMessage(JNIEnv *, jobject);
+JNIEXPORT jstring JNICALL Java_com_joshua_wwise_Initialize (JNIEnv *env, jobject thisObj);
+
 
 }
 

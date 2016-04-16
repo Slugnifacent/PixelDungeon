@@ -11,6 +11,7 @@ public class wwise {
         System.loadLibrary("Wwise"); // "myjni.dll" in Windows, "libmyjni.so" in Unixes
     }
 
+    private native String Initialize();
     private native String getMessage();
 
     public wwise()

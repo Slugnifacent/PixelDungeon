@@ -1,5 +1,7 @@
 LOCAL_PATH := $(call my-dir)
-LOCAL_EXPORT_C_INCLUDES := jni/wwise/AK \
+LOCAL_EXPORT_C_INCLUDES := jni \
+                           ../Common \
+                           jni/libzip \
                            jni/wwise/AK/Comm \
                            jni/wwise/AK/DSP \
                            jni/wwise/AK/DSP/Generic \
@@ -270,9 +272,13 @@ AstoundsoundShared
 LOCAL_MODULE    := Wwise
 LOCAL_LDLIBS := -L$(SYSROOT)/usr/lib -llog -lOpenSLES -landroid -lEGL -lGLESv1_CM -lz
 
-LOCAL_SRC_FILES := include/wwise.cpp
 
-LOCAL_CFLAGS := -DLUA_USE_POSIX 
+FILE_LIST := $(wildcard $(LOCAL_PATH)/../Common/*.cpp)
+FILE_LIST_2 := $(wildcard $(LOCAL_PATH)/*.cpp)
+
+LOCAL_SRC_FILES := include/wwise.cpp $(FILE_LIST:$(LOCAL_PATH)/%=%) $(FILE_LIST_2:$(LOCAL_PATH)/%=%)
+
+LOCAL_CFLAGS := -DLUA_USE_POSIX -DREMOVE_LIBZIP
 
 LOCAL_STATIC_LIBRARIES += android_native_app_glue
 LOCAL_WHOLE_STATIC_LIBRARIES += gnustl_static

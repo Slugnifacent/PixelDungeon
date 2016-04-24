@@ -1,0 +1,2 @@
+set solib-search-path ./obj/local/armeabi-v7a
+directory C:/Android-NDK/android-ndk-r11c/build//../platforms/android-9/arch-arm/usr/include jni C:/Android-NDK/android-ndk-r11c/build//../sources/android/native_app_glue C:/Android-NDK/android-ndk-r11c/build//../sources/cxx-stl/gnu-libstdc++/4.9/include C:/Android-NDK/android-ndk-r11c/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include C:/Android-NDK/android-ndk-r11c/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward

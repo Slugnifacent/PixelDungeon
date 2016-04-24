@@ -40,7 +40,7 @@ public enum Sample implements SoundPool.OnLoadCompleteListener {
 	protected HashMap<Object, Integer> ids = 
 		new HashMap<Object, Integer>();
 	
-	private boolean enabled = true;
+	private boolean enabled = false;
 	
 	public void reset() {
 

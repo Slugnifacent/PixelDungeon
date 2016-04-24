@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\</ProjectRoot>
+		<SourceFilesRoot>D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\GeneratedSoundBanks\Android\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1661994096" Language="SFX">
+			<ShortName>SoundBank</ShortName>
+			<Path>SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="216639764" Name="Play_game"/>
+				<Event Id="3158210548" Name="Play_snd_alert"/>
+				<Event Id="1576518167" Name="Play_snd_badge"/>
+				<Event Id="3142942158" Name="Play_snd_beacon"/>
+				<Event Id="2097072630" Name="Play_snd_bee"/>
+				<Event Id="3254079340" Name="Play_snd_blast"/>
+				<Event Id="4186786603" Name="Play_snd_bones"/>
+				<Event Id="2771374325" Name="Play_snd_boss"/>
+				<Event Id="324799515" Name="Play_snd_burning"/>
+				<Event Id="3052055677" Name="Play_snd_challenge"/>
+				<Event Id="1868018126" Name="Play_snd_charms"/>
+				<Event Id="2352044202" Name="Play_snd_click"/>
+				<Event Id="399950540" Name="Play_snd_cursed"/>
+				<Event Id="3060114196" Name="Play_snd_death"/>
+				<Event Id="2082342448" Name="Play_snd_degrade"/>
+				<Event Id="2948551988" Name="Play_snd_descend"/>
+				<Event Id="3569052333" Name="Play_snd_dewdrop"/>
+				<Event Id="1851074761" Name="Play_snd_door_open"/>
+				<Event Id="1905865200" Name="Play_snd_drink"/>
+				<Event Id="2566698852" Name="Play_snd_eat"/>
+				<Event Id="1527187626" Name="Play_snd_evoke"/>
+				<Event Id="3498392239" Name="Play_snd_falling"/>
+				<Event Id="3658815223" Name="Play_snd_ghost"/>
+				<Event Id="1486292932" Name="Play_snd_gold"/>
+				<Event Id="2767191669" Name="Play_snd_hit"/>
+				<Event Id="2090220063" Name="Play_snd_item"/>
+				<Event Id="1271558475" Name="Play_snd_levelup"/>
+				<Event Id="2161460620" Name="Play_snd_lightning"/>
+				<Event Id="503093975" Name="Play_snd_lullaby"/>
+				<Event Id="840487677" Name="Play_snd_mastery"/>
+				<Event Id="3947293644" Name="Play_snd_meld"/>
+				<Event Id="307004073" Name="Play_snd_mimic"/>
+				<Event Id="3525881674" Name="Play_snd_miss"/>
+				<Event Id="4032487041" Name="Play_snd_plant"/>
+				<Event Id="1937316103" Name="Play_snd_puff"/>
+				<Event Id="2703729878" Name="Play_snd_ray"/>
+				<Event Id="1734196546" Name="Play_snd_read"/>
+				<Event Id="1205166212" Name="Play_snd_rocks"/>
+				<Event Id="967152450" Name="Play_snd_secret"/>
+				<Event Id="1949739145" Name="Play_snd_shatter"/>
+				<Event Id="3821785684" Name="Play_snd_step"/>
+				<Event Id="2865931531" Name="Play_snd_teleport"/>
+				<Event Id="3080519864" Name="Play_snd_tomb"/>
+				<Event Id="2950683231" Name="Play_snd_trap"/>
+				<Event Id="4120927054" Name="Play_snd_unlock"/>
+				<Event Id="1144938819" Name="Play_snd_water"/>
+				<Event Id="2970788695" Name="Play_snd_zap"/>
+				<Event Id="1439313559" Name="Play_surface"/>
+				<Event Id="2479442773" Name="Play_theme"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="38206695" Language="SFX">
+					<ShortName>Raw Music\snd_trap.wav</ShortName>
+					<Path>SFX\Raw Music\snd_trap_9E69E797.wem</Path>
+				</File>
+				<File Id="55454455" Language="SFX">
+					<ShortName>Raw Music\snd_item.wav</ShortName>
+					<Path>SFX\Raw Music\snd_item_9E69E797.wem</Path>
+				</File>
+				<File Id="97418914" Language="SFX">
+					<ShortName>Raw Music\snd_lullaby.wav</ShortName>
+					<Path>SFX\Raw Music\snd_lullaby_9E69E797.wem</Path>
+				</File>
+				<File Id="140721021" Language="SFX">
+					<ShortName>Raw Music\game.wav</ShortName>
+					<Path>SFX\Raw Music\game_9E69E797.wem</Path>
+				</File>
+				<File Id="174859356" Language="SFX">
+					<ShortName>Raw Music\snd_falling.wav</ShortName>
+					<Path>SFX\Raw Music\snd_falling_9E69E797.wem</Path>
+				</File>
+				<File Id="178271137" Language="SFX">
+					<ShortName>Raw Music\snd_beacon.wav</ShortName>
+					<Path>SFX\Raw Music\snd_beacon_9E69E797.wem</Path>
+				</File>
+				<File Id="207711283" Language="SFX">
+					<ShortName>Raw Music\snd_tomb.wav</ShortName>
+					<Path>SFX\Raw Music\snd_tomb_9E69E797.wem</Path>
+				</File>
+				<File Id="245018209" Language="SFX">
+					<ShortName>Raw Music\snd_charms.wav</ShortName>
+					<Path>SFX\Raw Music\snd_charms_9E69E797.wem</Path>
+				</File>
+				<File Id="247223001" Language="SFX">
+					<ShortName>Raw Music\snd_blast.wav</ShortName>
+					<Path>SFX\Raw Music\snd_blast_9E69E797.wem</Path>
+				</File>
+				<File Id="281851156" Language="SFX">
+					<ShortName>Raw Music\snd_mimic.wav</ShortName>
+					<Path>SFX\Raw Music\snd_mimic_9E69E797.wem</Path>
+				</File>
+				<File Id="286211943" Language="SFX">
+					<ShortName>Raw Music\snd_shatter.wav</ShortName>
+					<Path>SFX\Raw Music\snd_shatter_9E69E797.wem</Path>
+				</File>
+				<File Id="328203517" Language="SFX">
+					<ShortName>Raw Music\snd_puff.wav</ShortName>
+					<Path>SFX\Raw Music\snd_puff_9E69E797.wem</Path>
+				</File>
+				<File Id="338474903" Language="SFX">
+					<ShortName>Raw Music\snd_dewdrop.wav</ShortName>
+					<Path>SFX\Raw Music\snd_dewdrop_9E69E797.wem</Path>
+				</File>
+				<File Id="373392995" Language="SFX">
+					<ShortName>Raw Music\snd_secret.wav</ShortName>
+					<Path>SFX\Raw Music\snd_secret_9E69E797.wem</Path>
+				</File>
+				<File Id="374742644" Language="SFX">
+					<ShortName>Raw Music\snd_click.wav</ShortName>
+					<Path>SFX\Raw Music\snd_click_9E69E797.wem</Path>
+				</File>
+				<File Id="382050678" Language="SFX">
+					<ShortName>Raw Music\snd_descend.wav</ShortName>
+					<Path>SFX\Raw Music\snd_descend_9E69E797.wem</Path>
+				</File>
+				<File Id="430116937" Language="SFX">
+					<ShortName>Raw Music\snd_cursed.wav</ShortName>
+					<Path>SFX\Raw Music\snd_cursed_9E69E797.wem</Path>
+				</File>
+				<File Id="430808271" Language="SFX">
+					<ShortName>Raw Music\snd_ray.wav</ShortName>
+					<Path>SFX\Raw Music\snd_ray_9E69E797.wem</Path>
+				</File>
+				<File Id="431359077" Language="SFX">
+					<ShortName>Raw Music\snd_gold.wav</ShortName>
+					<Path>SFX\Raw Music\snd_gold_9E69E797.wem</Path>
+				</File>
+				<File Id="500596097" Language="SFX">
+					<ShortName>Raw Music\surface.wav</ShortName>
+					<Path>SFX\Raw Music\surface_9E69E797.wem</Path>
+				</File>
+				<File Id="503110699" Language="SFX">
+					<ShortName>Raw Music\snd_bones.wav</ShortName>
+					<Path>SFX\Raw Music\snd_bones_9E69E797.wem</Path>
+				</File>
+				<File Id="509763579" Language="SFX">
+					<ShortName>Raw Music\snd_badge.wav</ShortName>
+					<Path>SFX\Raw Music\snd_badge_9E69E797.wem</Path>
+				</File>
+				<File Id="518102961" Language="SFX">
+					<ShortName>Raw Music\snd_bee.wav</ShortName>
+					<Path>SFX\Raw Music\snd_bee_9E69E797.wem</Path>
+				</File>
+				<File Id="525132467" Language="SFX">
+					<ShortName>Raw Music\snd_meld.wav</ShortName>
+					<Path>SFX\Raw Music\snd_meld_9E69E797.wem</Path>
+				</File>
+				<File Id="533288637" Language="SFX">
+					<ShortName>Raw Music\snd_miss.wav</ShortName>
+					<Path>SFX\Raw Music\snd_miss_9E69E797.wem</Path>
+				</File>
+				<File Id="534205965" Language="SFX">
+					<ShortName>Raw Music\snd_step.wav</ShortName>
+					<Path>SFX\Raw Music\snd_step_9E69E797.wem</Path>
+				</File>
+				<File Id="548768903" Language="SFX">
+					<ShortName>Raw Music\snd_mastery.wav</ShortName>
+					<Path>SFX\Raw Music\snd_mastery_9E69E797.wem</Path>
+				</File>
+				<File Id="554735053" Language="SFX">
+					<ShortName>Raw Music\snd_plant.wav</ShortName>
+					<Path>SFX\Raw Music\snd_plant_9E69E797.wem</Path>
+				</File>
+				<File Id="577163213" Language="SFX">
+					<ShortName>Raw Music\snd_eat.wav</ShortName>
+					<Path>SFX\Raw Music\snd_eat_9E69E797.wem</Path>
+				</File>
+				<File Id="586714454" Language="SFX">
+					<ShortName>Raw Music\snd_zap.wav</ShortName>
+					<Path>SFX\Raw Music\snd_zap_9E69E797.wem</Path>
+				</File>
+				<File Id="595487687" Language="SFX">
+					<ShortName>Raw Music\snd_burning.wav</ShortName>
+					<Path>SFX\Raw Music\snd_burning_9E69E797.wem</Path>
+				</File>
+				<File Id="611260913" Language="SFX">
+					<ShortName>Raw Music\snd_alert.wav</ShortName>
+					<Path>SFX\Raw Music\snd_alert_9E69E797.wem</Path>
+				</File>
+				<File Id="694009063" Language="SFX">
+					<ShortName>Raw Music\snd_levelup.wav</ShortName>
+					<Path>SFX\Raw Music\snd_levelup_9E69E797.wem</Path>
+				</File>
+				<File Id="729740427" Language="SFX">
+					<ShortName>Raw Music\snd_rocks.wav</ShortName>
+					<Path>SFX\Raw Music\snd_rocks_9E69E797.wem</Path>
+				</File>
+				<File Id="761048040" Language="SFX">
+					<ShortName>Raw Music\snd_hit.wav</ShortName>
+					<Path>SFX\Raw Music\snd_hit_9E69E797.wem</Path>
+				</File>
+				<File Id="779626833" Language="SFX">
+					<ShortName>Raw Music\snd_evoke.wav</ShortName>
+					<Path>SFX\Raw Music\snd_evoke_9E69E797.wem</Path>
+				</File>
+				<File Id="802072655" Language="SFX">
+					<ShortName>Raw Music\snd_challenge.wav</ShortName>
+					<Path>SFX\Raw Music\snd_challenge_9E69E797.wem</Path>
+				</File>
+				<File Id="807834339" Language="SFX">
+					<ShortName>Raw Music\snd_ghost.wav</ShortName>
+					<Path>SFX\Raw Music\snd_ghost_9E69E797.wem</Path>
+				</File>
+				<File Id="829907950" Language="SFX">
+					<ShortName>Raw Music\snd_door_open.wav</ShortName>
+					<Path>SFX\Raw Music\snd_door_open_9E69E797.wem</Path>
+				</File>
+				<File Id="835453810" Language="SFX">
+					<ShortName>Raw Music\snd_water.wav</ShortName>
+					<Path>SFX\Raw Music\snd_water_9E69E797.wem</Path>
+				</File>
+				<File Id="837263880" Language="SFX">
+					<ShortName>Raw Music\snd_read.wav</ShortName>
+					<Path>SFX\Raw Music\snd_read_9E69E797.wem</Path>
+				</File>
+				<File Id="843061650" Language="SFX">
+					<ShortName>Raw Music\theme.wav</ShortName>
+					<Path>SFX\Raw Music\theme_9E69E797.wem</Path>
+				</File>
+				<File Id="848554783" Language="SFX">
+					<ShortName>Raw Music\snd_drink.wav</ShortName>
+					<Path>SFX\Raw Music\snd_drink_9E69E797.wem</Path>
+				</File>
+				<File Id="896896183" Language="SFX">
+					<ShortName>Raw Music\snd_boss.wav</ShortName>
+					<Path>SFX\Raw Music\snd_boss_9E69E797.wem</Path>
+				</File>
+				<File Id="930930626" Language="SFX">
+					<ShortName>Raw Music\snd_degrade.wav</ShortName>
+					<Path>SFX\Raw Music\snd_degrade_9E69E797.wem</Path>
+				</File>
+				<File Id="935637448" Language="SFX">
+					<ShortName>Raw Music\snd_lightning.wav</ShortName>
+					<Path>SFX\Raw Music\snd_lightning_9E69E797.wem</Path>
+				</File>
+				<File Id="942756300" Language="SFX">
+					<ShortName>Raw Music\snd_unlock.wav</ShortName>
+					<Path>SFX\Raw Music\snd_unlock_9E69E797.wem</Path>
+				</File>
+				<File Id="982568061" Language="SFX">
+					<ShortName>Raw Music\snd_death.wav</ShortName>
+					<Path>SFX\Raw Music\snd_death_9E69E797.wem</Path>
+				</File>
+				<File Id="1060637162" Language="SFX">
+					<ShortName>Raw Music\snd_teleport.wav</ShortName>
+					<Path>SFX\Raw Music\snd_teleport_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -192,7 +192,7 @@ public class PixelDungeon extends Game {
 	
 	@Override
 	public void onWindowFocusChanged( boolean hasFocus ) {
-		
+
 		super.onWindowFocusChanged( hasFocus );
 		
 		if (hasFocus) {
@@ -203,6 +203,7 @@ public class PixelDungeon extends Game {
 	public static void switchNoFade( Class<? extends PixelScene> c ) {
 		PixelScene.noFade = true;
 		switchScene( c );
+
 	}
 	
 	/*
@@ -210,6 +211,7 @@ public class PixelDungeon extends Game {
 	 */
 	
 	public static void landscape( boolean value ) {
+
 		Game.instance.setRequestedOrientation( value ?
 			ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE :
 			ActivityInfo.SCREEN_ORIENTATION_PORTRAIT );

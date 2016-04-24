@@ -36,7 +36,7 @@ public enum Music implements MediaPlayer.OnPreparedListener, MediaPlayer.OnError
 	private String lastPlayed;
 	private boolean lastLooping;
 	
-	private boolean enabled = true;
+	private boolean enabled = false;
 
 	private wwise wise;
 
@@ -57,38 +57,7 @@ public enum Music implements MediaPlayer.OnPreparedListener, MediaPlayer.OnError
 	}
 
 	public void play( String assetName, boolean looping ) {
-		
-		if (isPlaying() && lastPlayed.equals( assetName )) {
-			return;
-		}
-		
-		stop();
-		
-		lastPlayed = assetName;
-		lastLooping = looping;
-		
-		if (!enabled || assetName == null) {
-			return;
-		}
-		
-		try {
-			
-			AssetFileDescriptor afd = Game.instance.getAssets().openFd( assetName );
-			
-			player = new MediaPlayer();
-			player.setAudioStreamType( AudioManager.STREAM_MUSIC );
-			player.setDataSource( afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength() );
-			player.setOnPreparedListener( this );
-			player.setOnErrorListener( this );
-			player.setLooping( looping );
-			player.prepareAsync();
-			
-		} catch (IOException e) {
-			
-			player.release();
-			player = null;
-			
-		}
+
 	}
 	
 	public void mute() {

@@ -1,0 +1,102 @@
+Event	ID	Name			Wwise Object Path	Notes
+	216639764	Play_game			\Default Work Unit\Play_game	
+	307004073	Play_snd_mimic			\Default Work Unit\Play_snd_mimic	
+	324799515	Play_snd_burning			\Default Work Unit\Play_snd_burning	
+	399950540	Play_snd_cursed			\Default Work Unit\Play_snd_cursed	
+	503093975	Play_snd_lullaby			\Default Work Unit\Play_snd_lullaby	
+	840487677	Play_snd_mastery			\Default Work Unit\Play_snd_mastery	
+	967152450	Play_snd_secret			\Default Work Unit\Play_snd_secret	
+	1144938819	Play_snd_water			\Default Work Unit\Play_snd_water	
+	1205166212	Play_snd_rocks			\Default Work Unit\Play_snd_rocks	
+	1271558475	Play_snd_levelup			\Default Work Unit\Play_snd_levelup	
+	1439313559	Play_surface			\Default Work Unit\Play_surface	
+	1486292932	Play_snd_gold			\Default Work Unit\Play_snd_gold	
+	1527187626	Play_snd_evoke			\Default Work Unit\Play_snd_evoke	
+	1576518167	Play_snd_badge			\Default Work Unit\Play_snd_badge	
+	1734196546	Play_snd_read			\Default Work Unit\Play_snd_read	
+	1851074761	Play_snd_door_open			\Default Work Unit\Play_snd_door_open	
+	1868018126	Play_snd_charms			\Default Work Unit\Play_snd_charms	
+	1905865200	Play_snd_drink			\Default Work Unit\Play_snd_drink	
+	1937316103	Play_snd_puff			\Default Work Unit\Play_snd_puff	
+	1949739145	Play_snd_shatter			\Default Work Unit\Play_snd_shatter	
+	2082342448	Play_snd_degrade			\Default Work Unit\Play_snd_degrade	
+	2090220063	Play_snd_item			\Default Work Unit\Play_snd_item	
+	2097072630	Play_snd_bee			\Default Work Unit\Play_snd_bee	
+	2161460620	Play_snd_lightning			\Default Work Unit\Play_snd_lightning	
+	2352044202	Play_snd_click			\Default Work Unit\Play_snd_click	
+	2479442773	Play_theme			\Default Work Unit\Play_theme	
+	2566698852	Play_snd_eat			\Default Work Unit\Play_snd_eat	
+	2703729878	Play_snd_ray			\Default Work Unit\Play_snd_ray	
+	2767191669	Play_snd_hit			\Default Work Unit\Play_snd_hit	
+	2771374325	Play_snd_boss			\Default Work Unit\Play_snd_boss	
+	2865931531	Play_snd_teleport			\Default Work Unit\Play_snd_teleport	
+	2948551988	Play_snd_descend			\Default Work Unit\Play_snd_descend	
+	2950683231	Play_snd_trap			\Default Work Unit\Play_snd_trap	
+	2970788695	Play_snd_zap			\Default Work Unit\Play_snd_zap	
+	3052055677	Play_snd_challenge			\Default Work Unit\Play_snd_challenge	
+	3060114196	Play_snd_death			\Default Work Unit\Play_snd_death	
+	3080519864	Play_snd_tomb			\Default Work Unit\Play_snd_tomb	
+	3142942158	Play_snd_beacon			\Default Work Unit\Play_snd_beacon	
+	3158210548	Play_snd_alert			\Default Work Unit\Play_snd_alert	
+	3254079340	Play_snd_blast			\Default Work Unit\Play_snd_blast	
+	3498392239	Play_snd_falling			\Default Work Unit\Play_snd_falling	
+	3525881674	Play_snd_miss			\Default Work Unit\Play_snd_miss	
+	3569052333	Play_snd_dewdrop			\Default Work Unit\Play_snd_dewdrop	
+	3658815223	Play_snd_ghost			\Default Work Unit\Play_snd_ghost	
+	3821785684	Play_snd_step			\Default Work Unit\Play_snd_step	
+	3947293644	Play_snd_meld			\Default Work Unit\Play_snd_meld	
+	4032487041	Play_snd_plant			\Default Work Unit\Play_snd_plant	
+	4120927054	Play_snd_unlock			\Default Work Unit\Play_snd_unlock	
+	4186786603	Play_snd_bones			\Default Work Unit\Play_snd_bones	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	38206695	snd_trap	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_trap_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_trap		9236
+	55454455	snd_item	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_item_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_item		41518
+	97418914	snd_lullaby	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_lullaby_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_lullaby		91072
+	140721021	game	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\game_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\game		12708928
+	174859356	snd_falling	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_falling_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_falling		122176
+	178271137	snd_beacon	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_beacon_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_beacon		76096
+	207711283	snd_tomb	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_tomb_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_tomb		23084
+	245018209	snd_charms	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_charms_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_charms		59968
+	247223001	snd_blast	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_blast_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_blast		89920
+	281851156	snd_mimic	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_mimic_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_mimic		41536
+	286211943	snd_shatter	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_shatter_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_shatter		23084
+	328203517	snd_puff	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_puff_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_puff		36844
+	338474903	snd_dewdrop	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_dewdrop_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_dewdrop		24256
+	373392995	snd_secret	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_secret_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_secret		149824
+	374742644	snd_click	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_click_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_click		6944
+	382050678	snd_descend	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_descend_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_descend		153280
+	430116937	snd_cursed	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_cursed_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_cursed		25408
+	430808271	snd_ray	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_ray_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_ray		94528
+	431359077	snd_gold	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_gold_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_gold		23084
+	500596097	surface	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\surface_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\surface		10266688
+	503110699	snd_bones	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_bones_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_bones		73792
+	509763579	snd_badge	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_badge_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_badge		85312
+	518102961	snd_bee	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_bee_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_bee		48448
+	525132467	snd_meld	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_meld_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_meld		43812
+	533288637	snd_miss	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_miss_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_miss		34550
+	534205965	snd_step	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_step_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_step		13824
+	548768903	snd_mastery	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_mastery_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_mastery		59968
+	554735053	snd_plant	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_plant_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_plant		20792
+	577163213	snd_eat	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_eat_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_eat		76096
+	586714454	snd_zap	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_zap_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_zap		30016
+	595487687	snd_burning	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_burning_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_burning		66880
+	611260913	snd_alert	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_alert_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_alert		108352
+	694009063	snd_levelup	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_levelup_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_levelup		142912
+	729740427	snd_rocks	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_rocks_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_rocks		122176
+	761048040	snd_hit	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_hit_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_hit		29964
+	779626833	snd_evoke	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_evoke_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_evoke		42688
+	802072655	snd_challenge	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_challenge_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_challenge		171712
+	807834339	snd_ghost	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_ghost_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_ghost		195904
+	829907950	snd_door_open	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_door_open_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_door_open		32258
+	835453810	snd_water	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_water_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_water		16116
+	837263880	snd_read	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_read_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_read		17308
+	843061650	theme	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\theme_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\theme		8543296
+	848554783	snd_drink	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_drink_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_drink		25378
+	896896183	snd_boss	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_boss_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_boss		292672
+	930930626	snd_degrade	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_degrade_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_degrade		91072
+	935637448	snd_lightning	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_lightning_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_lightning		34550
+	942756300	snd_unlock	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_unlock_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_unlock		46104
+	982568061	snd_death	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_death_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_death		65728
+	1060637162	snd_teleport	D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\SFX\Raw Music\snd_teleport_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\snd_teleport		112960
+

@@ -253,6 +253,7 @@ AKRESULT CAkFileLocationBase::SetBasePath(
     const AkOSChar*   in_pszBasePath
     )
 {
+
 	if ( AKPLATFORM::OsStrLen( in_pszBasePath ) + AkTemplMax( AKPLATFORM::OsStrLen( m_szBankPath ), AKPLATFORM::OsStrLen( m_szAudioSrcPath ) ) + AKPLATFORM::OsStrLen( AK::StreamMgr::GetCurrentLanguage() ) + 1 >= AK_MAX_PATH )
 	{
 		return AK_InvalidParameter;
@@ -262,11 +263,11 @@ AKRESULT CAkFileLocationBase::SetBasePath(
 	AKPLATFORM::SafeStrCpy( m_szBasePath, in_pszBasePath, AK_MAX_PATH );
 
 	AKRESULT eDirectoryResult = CAkFileHelpers::CheckDirectoryExists( in_pszBasePath );
+
 	if( eDirectoryResult == AK_Fail ) // AK_NotImplemented could be returned and should be ignored.
 	{
 		return AK_PathNotFound;
 	}
-	
 	return AK_Success;
 }
 

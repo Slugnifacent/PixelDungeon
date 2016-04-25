@@ -276,7 +276,7 @@ LOCAL_LDLIBS := -L$(SYSROOT)/usr/lib -llog -lOpenSLES -landroid -lEGL -lGLESv1_C
 FILE_LIST := $(wildcard $(LOCAL_PATH)/../Common/*.cpp)
 FILE_LIST_2 := $(wildcard $(LOCAL_PATH)/*.cpp)
 
-LOCAL_SRC_FILES := include/wwise.cpp $(FILE_LIST:$(LOCAL_PATH)/%=%) $(FILE_LIST_2:$(LOCAL_PATH)/%=%)
+LOCAL_SRC_FILES := include/wwise.cpp include/JNIWwise.cpp $(FILE_LIST:$(LOCAL_PATH)/%=%) $(FILE_LIST_2:$(LOCAL_PATH)/%=%)
 
 LOCAL_CFLAGS := -DLUA_USE_POSIX -DREMOVE_LIBZIP
 

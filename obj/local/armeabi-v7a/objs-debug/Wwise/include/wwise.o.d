@@ -1,5 +1,5 @@
 obj/local/armeabi-v7a/objs-debug/Wwise/include/wwise.o: \
- jni/include/wwise.cpp jni/include/wwise.h \
+ jni/include/wwise.cpp jni/include/wwise.h jni/include/JNIWwise.h \
  jni/AK/SoundEngine/Common/AkSoundEngine.h \
  jni/AK/SoundEngine/Common/AkSoundEngineExport.h jni/AK/AkPlatforms.h \
  jni/AK/SoundEngine/Platforms/Android/AkTypes.h \
@@ -36,6 +36,8 @@ obj/local/armeabi-v7a/objs-debug/Wwise/include/wwise.o: \
  jni/AkDefaultIOHookBlocking.h jni/AkFileHelpers.h
 
 jni/include/wwise.h:
+
+jni/include/JNIWwise.h:
 
 jni/AK/SoundEngine/Common/AkSoundEngine.h:
 

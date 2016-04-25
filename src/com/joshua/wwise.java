@@ -19,13 +19,12 @@ public class wwise {
         System.loadLibrary("Wwise"); // "myjni.dll" in Windows, "libmyjni.so" in Unixes
     }
 
-    private native String Initialize();
-
-    private native String getMessage();
+    private native boolean Initialize();
+    private native boolean LoadBank(String BankName);
+    private native boolean RegisterGameObject(String MonitorName, int GameObjectID);
+    private native boolean PostEvent(String EventName, int GameObjectID);
 
     private native String ProcessAudio();
-
-    private native String LoadBanks();
 
     private native String Close();
 
@@ -37,25 +36,18 @@ public class wwise {
     }
 
     public void Init() {
-        String temp = Initialize();
-        File file = Environment.getExternalStorageDirectory();
+        initialized = Initialize();
+        LoadBank("Init.bnk");
+        LoadBank("SoundBank.bnk");
+        String MonitorName = "Monitor Name";
+        int GameObjectID = 100;
 
-        Log.d("DEBUG",file.getAbsolutePath()+ "/Android/obb/com.watabou.pixeldungeon" );
-        if (temp != null) {
-            Log.d("Debug", temp);
-
-        }
-        initialized = true;
-        Loadbanks();
+        RegisterGameObject(MonitorName, GameObjectID);
+        PostEvent("Play_Game", GameObjectID);
     }
 
     public String Loadbanks() {
-        String result = "";
-        if(initialized) {
-            result = LoadBanks();
-        }
-        Log.d("Debug", "Loadbanks:" + result);
-        return result;
+        return "";
     }
 
     public String Update() {
@@ -70,13 +62,6 @@ public class wwise {
         initialized = false;
         String result = Close();
         return result;
-    }
-
-    public void Message() {
-        String temp = Initialize();
-        if (temp != null) {
-            Log.d("Debug", temp);
-        }
     }
 
     public Context getNativeActivity()

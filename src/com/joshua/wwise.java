@@ -22,11 +22,12 @@ public class wwise {
     private native boolean Initialize();
     private native boolean LoadBank(String BankName);
     private native boolean RegisterGameObject(String MonitorName, int GameObjectID);
-    private native boolean PostEvent(String EventName, int GameObjectID);
+    private native boolean PostEvent(String EventName, int GameObjectID,boolean Process);
+    private native String  ProcessAudio();
+    private native String  Close();
 
-    private native String ProcessAudio();
-
-    private native String Close();
+    String MonitorName = "Monitor Name";
+    int GameObjectID = 100;
 
     boolean initialized;
     public static Context context;
@@ -39,23 +40,56 @@ public class wwise {
         initialized = Initialize();
         LoadBank("Init.bnk");
         LoadBank("SoundBank.bnk");
-        String MonitorName = "Monitor Name";
-        int GameObjectID = 100;
-
         RegisterGameObject(MonitorName, GameObjectID);
-        PostEvent("Play_Game", GameObjectID);
     }
 
-    public String Loadbanks() {
-        return "";
-    }
-
-    public String Update() {
-        String result = "";
+    public void Play(String assetName, boolean looping )
+    {
         if(initialized) {
-            result = ProcessAudio();
+            assetName.replace(".mp3", "");
+            String newName = "Play_" + assetName.replace(".mp3", "");
+            PostEvent(newName, GameObjectID,false);
         }
-        return result;
+    }
+
+    public void Update() {
+        if(initialized) {
+            ProcessAudio();
+        }
+    }
+
+    public void Mute() {
+        postEvent("Mute_All", GameObjectID,true);
+    }
+
+    public void Pause() {
+        postEvent("Pause_All", GameObjectID, true);
+    }
+
+    public void Resume() {
+        postEvent("Resume_All", GameObjectID, true);
+    }
+
+    public void Stop() {
+        postEvent("Stop_All", GameObjectID, true);
+    }
+
+    public void Reset() {
+        postEvent("Reset_All", GameObjectID, true);
+    }
+
+    private void postEvent(String EventName, int GameObjectID,boolean Process)
+    {
+        if(initialized) {
+            PostEvent(EventName, GameObjectID, Process);
+        }
+    }
+
+    public void Volume(float Value) {
+    }
+
+    public boolean isPlaying() {
+        return false;
     }
 
     public String Exit() {

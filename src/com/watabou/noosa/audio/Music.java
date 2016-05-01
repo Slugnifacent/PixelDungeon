@@ -19,6 +19,7 @@ package com.watabou.noosa.audio;
 
 import java.io.IOException;
 
+import com.joshua.MusicObject;
 import com.watabou.noosa.Game;
 
 import android.content.res.AssetFileDescriptor;
@@ -26,24 +27,28 @@ import android.media.AudioManager;
 import android.media.MediaPlayer;
 
 import com.joshua.wwise;
+import com.joshua.MusicObject;
 
 public enum Music implements MediaPlayer.OnPreparedListener, MediaPlayer.OnErrorListener {
 	
 	INSTANCE;
 	
 	private MediaPlayer player;
-	
+	String songplaying;
 	private String lastPlayed;
 	private boolean lastLooping;
+	private MusicObject music;
 	
 	private boolean enabled = false;
 
-	private wwise wise;
+	public static wwise wise;
 
 	public void Initialize()
 	{
 		wise = new wwise();
 		wise.Init();
+		songplaying="";
+		music = new MusicObject("Current Music",200);
 	}
 
 	public void Update()
@@ -56,18 +61,32 @@ public enum Music implements MediaPlayer.OnPreparedListener, MediaPlayer.OnError
 		wise.Exit();
 	}
 
-	public void play( String assetName, boolean looping ) {
 
+	public void play( String assetName, boolean looping ) {
+		if (assetName == null) return;
+
+		lastPlayed = assetName;
+		lastLooping = looping;
+
+		if(enabled) {
+			if (wise != null) {
+				if (assetName.compareTo(songplaying) != 0) {
+					wise.Stop();
+					wise.Play(assetName, looping);
+					songplaying = assetName;
+				}
+			}
+		}
 	}
 	
 	public void mute() {
 		lastPlayed = null;
-		stop();
+		if(wise != null) wise.Mute();
 	}
 
 	@Override
 	public void onPrepared( MediaPlayer player ) {
-		player.start();
+
 	}
 	
 	@Override
@@ -80,42 +99,35 @@ public enum Music implements MediaPlayer.OnPreparedListener, MediaPlayer.OnError
 	}
 	
 	public void pause() {
-		if (player != null) {
-			player.pause();
-		}
+		if(wise != null) wise.Pause();
 	}
 	
 	public void resume() {
-		if (player != null) {
-			player.start();
-		}
+		if(wise != null) wise.Resume();
 	}
 	
 	public void stop() {
-		if (player != null) {
-			player.stop();
-			player.release();
-			player = null;
+
+		if(wise != null){
+			wise.Stop();
 		}
 	}
 	
 	public void volume( float value ) {
-		if (player != null) {
-			player.setVolume( value, value );
-		}
+		if(wise != null) wise.Volume(value);
 	}
 	
 	public boolean isPlaying() {
-		return player != null && player.isPlaying();
+		return wise != null;
 	}
 	
 	public void enable( boolean value ) {
 		enabled = value;
-		if (isPlaying() && !value) {
+		if (!value) {
 			stop();
-		} else
-		if (!isPlaying() && value) {
-			play( lastPlayed, lastLooping );
+			songplaying = "";
+		} else {
+			play(lastPlayed, lastLooping);
 		}
 	}
 	

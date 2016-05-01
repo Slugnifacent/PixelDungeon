@@ -5,10 +5,10 @@
 			<ChildrenList>
 				<Event Name="Play_game" ID="{BB96A4FB-5838-4CE7-98BD-7ACFFB892BCB}">
 					<ChildrenList>
-						<Action Name="Play" ID="{76CB54F7-EA1C-4C8A-B766-3117224AC54F}" ShortID="144875791" Type="Play" Scope="One" Global="false">
+						<Action Name="Play" ID="{5B065274-6F1E-4894-942B-ED580BDD6DDB}" ShortID="608870625" Type="Play" Scope="One" Global="false">
 							<ElementList>
-								<Element ID="{92DE6216-7454-483E-BD2A-CE4FDB3F4979}" Global="false">
-									<ObjectRef Name="game" ID="{D3D4707A-1807-4E2A-8161-B3939A81EEE3}" WorkUnitID="{B8B63765-ACD8-40AD-A4DE-5644D5FD2AA7}"/>
+								<Element ID="{679C890F-92DE-4866-8195-714770BC60F9}" Global="false">
+									<ObjectRef Name="Rihanna" ID="{245C3FC0-93BE-455C-8874-CC0A85605AF1}" WorkUnitID="{B8B63765-ACD8-40AD-A4DE-5644D5FD2AA7}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -540,6 +540,21 @@
 								</Element>
 							</ElementList>
 						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_All" ID="{0863649F-E0ED-4F73-B6B2-5B03D6922D09}">
+					<ChildrenList>
+						<Action Name="Stop All" ID="{BE38785A-F109-4521-A39D-760176363D07}" ShortID="729002803" Type="Stop" Scope="All" Global="true"/>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pause_All" ID="{228F980C-9E9D-475A-80FF-1B54574F94D5}">
+					<ChildrenList>
+						<Action Name="Pause All" ID="{B4AE1FE1-77CE-4BE4-92AD-BFC099CAA268}" ShortID="1009960403" Type="Pause" Scope="All" Global="true"/>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume_All" ID="{86B74CF2-8D01-4F24-B7E0-CF3B516B4D39}">
+					<ChildrenList>
+						<Action Name="Resume All" ID="{E8FBA67C-BE45-4EBE-9349-B9C6AD970A39}" ShortID="604490847" Type="Resume" Scope="All" Global="true"/>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

@@ -8,6 +8,7 @@
 						<ObjectRef Name="Play_snd_plant" ID="{CBDBAB09-0BA6-476A-9687-8E943D248365}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>
 						<ObjectRef Name="Play_snd_bones" ID="{8C8F9B0A-175B-4062-984F-B27092444370}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>
 						<ObjectRef Name="Play_snd_secret" ID="{83B45E0B-9A1D-4251-BC16-EF890A11E908}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>
+						<ObjectRef Name="Pause_All" ID="{228F980C-9E9D-475A-80FF-1B54574F94D5}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_snd_mastery" ID="{B7ECA80C-F6DD-47C5-9795-2D1496E0A52E}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>
 						<ObjectRef Name="Play_snd_lullaby" ID="{C2E80A18-F0E9-4A3C-9A09-E4CF57AD218F}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>
 						<ObjectRef Name="Play_snd_boss" ID="{8CE77D1B-7D27-4FB6-8A3C-A0899C44F9E1}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>
@@ -34,6 +35,7 @@
 						<ObjectRef Name="Play_snd_step" ID="{81D08B7A-2191-42A3-9022-5A0853EB76D7}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>
 						<ObjectRef Name="Play_snd_lightning" ID="{5E889386-D3DB-4D2B-96FD-5A17AA70E00C}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>
 						<ObjectRef Name="Play_snd_item" ID="{017BC98C-FD93-425E-9826-3CC059509C07}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>
+						<ObjectRef Name="Stop_All" ID="{0863649F-E0ED-4F73-B6B2-5B03D6922D09}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_snd_drink" ID="{DA01BCA8-D315-4C66-BC85-73D87A515E6F}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>
 						<ObjectRef Name="Play_snd_bee" ID="{4D328DB3-78B8-4AD5-95BC-178CD2CA254C}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>
 						<ObjectRef Name="Play_snd_door_open" ID="{9B5449C0-032D-4281-A2B5-E3D2FC74EA0E}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>
@@ -50,6 +52,7 @@
 						<ObjectRef Name="Play_snd_zap" ID="{D58F04ED-C7A1-444F-B510-F425C0DFD0C0}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>
 						<ObjectRef Name="Play_snd_beacon" ID="{71CD28ED-E13F-47DF-A8BB-DF19E6EB7406}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>
 						<ObjectRef Name="Play_snd_tomb" ID="{F0C208F0-F168-4034-83E1-1B8532815320}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>
+						<ObjectRef Name="Resume_All" ID="{86B74CF2-8D01-4F24-B7E0-CF3B516B4D39}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_snd_water" ID="{E7A4D9F2-D592-4C66-B298-3AB0E8391BD3}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>
 						<ObjectRef Name="Play_snd_mimic" ID="{A39A74F6-411A-46AB-B678-1881C80C4889}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>
 						<ObjectRef Name="Play_snd_eat" ID="{CFE67AF9-7D34-4AD1-B5A9-8FE478785A6B}" WorkUnitID="{F4CF084B-BAE6-4B77-B141-EE1A213113E2}" Filter="7" Origin="Definition"/>

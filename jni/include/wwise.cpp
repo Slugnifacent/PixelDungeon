@@ -17,7 +17,6 @@ jint JNI_OnLoad(JavaVM* vm, void* reserved)
 }
 
 JNIEXPORT jboolean JNICALL Java_com_joshua_wwise_Initialize(JNIEnv *env, jobject thisObj) {
-	Env = env;
     if(!wwise.Initialize(VM,env,thisObj))
     {
         return JNI_FALSE;
@@ -25,9 +24,9 @@ JNIEXPORT jboolean JNICALL Java_com_joshua_wwise_Initialize(JNIEnv *env, jobject
     return JNI_TRUE;
 }
 
-JNIEXPORT jboolean JNICALL Java_com_joshua_wwise_PostEvent(JNIEnv *env, jobject thisObj,jstring Event,jint GameObjectID) {
+JNIEXPORT jboolean JNICALL Java_com_joshua_wwise_PostEvent(JNIEnv *env, jobject thisObj,jstring Event,jint GameObjectID,jboolean Process) {
    const char *nativeString = env->GetStringUTFChars(Event, 0);
-   if(!wwise.PostEvent(nativeString,GameObjectID))
+   if(!wwise.PostEvent(nativeString,GameObjectID,Process))
    {
        env->ReleaseStringUTFChars( Event, nativeString);
        return JNI_FALSE;

@@ -9,60 +9,81 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7534582-029a-4ae9-abda-1d22a9a30220" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\libandroid_native_app_glue.a" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\Wwise\AkDefaultIOHookBlocking.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\Wwise\AkDefaultIOHookBlocking.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\Wwise\AkDefaultIOHookDeferred.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\Wwise\AkDefaultIOHookDeferred.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\Wwise\AkFileHelpers.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\Wwise\AkFileHelpers.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\Wwise\__\Common\AkDefaultLowLevelIODispatcher.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\Wwise\__\Common\AkDefaultLowLevelIODispatcher.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\Wwise\__\Common\AkFileLocationBase.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\Wwise\__\Common\AkFileLocationBase.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\Wwise\__\Common\AkFilePackage.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\Wwise\__\Common\AkFilePackage.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\Wwise\__\Common\AkFilePackageLUT.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\Wwise\__\Common\AkFilePackageLUT.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\Wwise\include\wwise.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\Wwise\include\wwise.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\android_native_app_glue\android_native_app_glue.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi-v7a\objs-debug\android_native_app_glue\android_native_app_glue.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\libAKSoundEngine.so" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\libWwise.so" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\libWwiselib.so" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\libandroid_native_app_glue.a" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\libstdc++.a" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\AKSoundEngine\wwise.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\AKSoundEngine\wwise.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\AkDefaultIOHookBlocking.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\AkDefaultIOHookBlocking.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\AkDefaultIOHookDeferred.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\AkDefaultIOHookDeferred.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\AkFileHelpers.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\AkFileHelpers.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\__\Common\AkDefaultLowLevelIODispatcher.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\__\Common\AkDefaultLowLevelIODispatcher.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\__\Common\AkFileLocationBase.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\__\Common\AkFileLocationBase.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\__\Common\AkFilePackage.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\__\Common\AkFilePackage.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\__\Common\AkFilePackageLUT.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\__\Common\AkFilePackageLUT.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\include\wwise.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\include\wwise.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\wwise.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\Wwise\wwise.o.d" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\android_native_app_glue\android_native_app_glue.o" afterPath="" />
-      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\obj\local\armeabi\objs-debug\android_native_app_glue\android_native_app_glue.o.d" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/joshua/MusicObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/joshua/WwiseNativeWrapper.java" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\game.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_alert.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_badge.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_beacon.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_bee.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_blast.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_bones.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_boss.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_burning.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_challenge.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_charms.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_click.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_cursed.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_death.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_degrade.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_descend.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_dewdrop.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_door_open.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_drink.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_eat.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_evoke.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_falling.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_ghost.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_gold.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_hit.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_item.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_levelup.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_lightning.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_lullaby.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_mastery.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_meld.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_mimic.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_miss.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_plant.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_puff.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_ray.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_read.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_rocks.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_secret.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_shatter.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_step.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_teleport.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_tomb.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_trap.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_unlock.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_water.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\snd_zap.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\surface.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\pixel-dungeon\pixel-dungeon\assets\theme.mp3" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/local/armeabi-v7a/objs-debug/Wwise/include/JNIWwise.o" afterPath="$PROJECT_DIR$/obj/local/armeabi-v7a/objs-debug/Wwise/include/JNIWwise.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/generatedsoundbanks/android/SoundBank.bnk" afterPath="$PROJECT_DIR$/assets/generatedsoundbanks/android/SoundBank.bnk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wwise/PixelDungen/Originals/WavAnalysis.cache" afterPath="$PROJECT_DIR$/wwise/PixelDungen/Originals/WavAnalysis.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wwise/PixelDungen/.cache/Android/SFX/Raw Music/Wwise.dat" afterPath="$PROJECT_DIR$/wwise/PixelDungen/.cache/Android/SFX/Raw Music/Wwise.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/armeabi-v7a/libWwise.so" afterPath="$PROJECT_DIR$/libs/armeabi-v7a/libWwise.so" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/local/armeabi-v7a/libWwise.so" afterPath="$PROJECT_DIR$/obj/local/armeabi-v7a/libWwise.so" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/Android.mk" afterPath="$PROJECT_DIR$/jni/Android.mk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/local/armeabi-v7a/objs-debug/Wwise/include/wwise.o" afterPath="$PROJECT_DIR$/obj/local/armeabi-v7a/objs-debug/Wwise/include/wwise.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wwise/PixelDungen/Actor-Mixer Hierarchy/Default Work Unit.wwu" afterPath="$PROJECT_DIR$/wwise/PixelDungen/Actor-Mixer Hierarchy/Default Work Unit.wwu" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wwise/PixelDungen/Events/Default Work Unit.wwu" afterPath="$PROJECT_DIR$/wwise/PixelDungen/Events/Default Work Unit.wwu" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wwise/PixelDungen/SoundBanks/Default Work Unit.wwu" afterPath="$PROJECT_DIR$/wwise/PixelDungen/SoundBanks/Default Work Unit.wwu" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wwise/PixelDungen/IncrementalSoundBankData.xml" afterPath="$PROJECT_DIR$/wwise/PixelDungen/IncrementalSoundBankData.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/include/JNIWwise.cpp" afterPath="$PROJECT_DIR$/jni/include/JNIWwise.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/include/JNIWwise.h" afterPath="$PROJECT_DIR$/jni/include/JNIWwise.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/watabou/noosa/audio/Music.java" afterPath="$PROJECT_DIR$/src/com/watabou/noosa/audio/Music.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wwise/PixelDungen/PixelDungen.Joshua.validationcache" afterPath="$PROJECT_DIR$/wwise/PixelDungen/PixelDungen.Joshua.validationcache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wwise/PixelDungen/PixelDungen.Joshua.wsettings" afterPath="$PROJECT_DIR$/wwise/PixelDungen/PixelDungen.Joshua.wsettings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/watabou/noosa/audio/Sample.java" afterPath="$PROJECT_DIR$/src/com/watabou/noosa/audio/Sample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/generatedsoundbanks/android/SoundBank.txt" afterPath="$PROJECT_DIR$/assets/generatedsoundbanks/android/SoundBank.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/generatedsoundbanks/android/SoundbanksInfo.xml" afterPath="$PROJECT_DIR$/assets/generatedsoundbanks/android/SoundbanksInfo.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/include/wwise.cpp" afterPath="$PROJECT_DIR$/jni/include/wwise.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/include/wwise.h" afterPath="$PROJECT_DIR$/jni/include/wwise.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/joshua/wwise.java" afterPath="$PROJECT_DIR$/src/com/joshua/wwise.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wwise/PixelDungen/.cache/Android/SFX/SBStat/{25F98A66-91B3-46D4-93F2-612911B1FC5D}.stat" afterPath="$PROJECT_DIR$/wwise/PixelDungen/.cache/Android/SFX/SBStat/{25F98A66-91B3-46D4-93F2-612911B1FC5D}.stat" />
     </list>
     <ignored path="pixel-dungeon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,26 +105,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wwise.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/joshua/wwise.java">
+      <file leaf-file-name="wwise.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jni/include/wwise.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.318182">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding>
-                <element signature="e#1171#1172#0" expanded="true" />
-                <element signature="e#1196#1197#0" expanded="true" />
-                <element signature="e#1521#1522#0" expanded="true" />
-                <element signature="e#1589#1590#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-5.625">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wwise.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jni/include/wwise.h">
+      <file leaf-file-name="WwiseNativeWrapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/joshua/WwiseNativeWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.87903225">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JNIWwise.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jni/include/JNIWwise.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-54.375">
+              <caret line="183" column="14" selection-start-line="183" selection-start-column="14" selection-end-line="183" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -112,9 +138,36 @@
       <file leaf-file-name="wwise.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jni/include/wwise.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.261906">
-              <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+            <state vertical-scroll-proportion="-20.75">
+              <caret line="37" column="96" selection-start-line="37" selection-start-column="89" selection-end-line="37" selection-end-column="96" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wwise.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/joshua/wwise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.39027777">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="26" selection-end-column="35" />
+              <folding>
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
+                <element signature="e#1495#1496#0" expanded="true" />
+                <element signature="e#1551#1552#0" expanded="true" />
+                <element signature="e#1578#1579#0" expanded="true" />
+                <element signature="e#1636#1637#0" expanded="true" />
+                <element signature="e#1664#1665#0" expanded="true" />
+                <element signature="e#1723#1724#0" expanded="true" />
+                <element signature="e#1749#1750#0" expanded="true" />
+                <element signature="e#1806#1807#0" expanded="true" />
+                <element signature="e#1833#1834#0" expanded="true" />
+                <element signature="e#1891#1892#0" expanded="true" />
+                <element signature="e#2155#2156#0" expanded="true" />
+                <element signature="e#2183#2184#0" expanded="true" />
+                <element signature="e#2348#2349#0" expanded="true" />
+                <element signature="e#2416#2417#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,29 +175,74 @@
       <file leaf-file-name="JNIWwise.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jni/include/JNIWwise.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.4125">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state vertical-scroll-proportion="-18.875">
+              <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JNIWwise.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jni/include/JNIWwise.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68727916">
-              <caret line="199" column="12" selection-start-line="199" selection-start-column="12" selection-end-line="199" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Android.mk" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jni/Android.mk">
+      <file leaf-file-name="MusicObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/joshua/MusicObject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="278" column="37" selection-start-line="278" selection-start-column="37" selection-end-line="278" selection-end-column="57" />
-              <folding />
+              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="49" />
+              <folding>
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
+                <element signature="e#952#953#0" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+                <element signature="e#1087#1088#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Music.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/watabou/noosa/audio/Music.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="19.690475">
+              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1461#1462#0" expanded="true" />
+                <element signature="e#1481#1482#0" expanded="true" />
+                <element signature="e#1505#1506#0" expanded="true" />
+                <element signature="e#1523#1524#0" expanded="true" />
+                <element signature="e#2190#2191#0" expanded="true" />
+                <element signature="e#2226#2227#0" expanded="true" />
+                <element signature="e#2252#2253#0" expanded="true" />
+                <element signature="e#2289#2290#0" expanded="true" />
+                <element signature="e#2470#2471#0" expanded="true" />
+                <element signature="e#2496#2497#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/watabou/noosa/audio/Sample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.547619">
+              <caret line="115" column="13" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2670#2671#0" expanded="true" />
+                <element signature="e#2703#2704#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -189,14 +287,16 @@
         <option value="$PROJECT_DIR$/Common/AkFileLocationBase.cpp" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/watabou/pixeldungeon/PixelDungeon.java" />
-        <option value="$PROJECT_DIR$/src/com/watabou/noosa/audio/Sample.java" />
-        <option value="$PROJECT_DIR$/src/com/watabou/noosa/audio/Music.java" />
-        <option value="$PROJECT_DIR$/jni/include/wwise.cpp" />
         <option value="$PROJECT_DIR$/jni/Android.mk" />
         <option value="$PROJECT_DIR$/jni/include/JNIWwise.cpp" />
-        <option value="$PROJECT_DIR$/src/com/joshua/wwise.java" />
         <option value="$PROJECT_DIR$/jni/include/wwise.h" />
+        <option value="$PROJECT_DIR$/jni/include/wwise.cpp" />
+        <option value="$PROJECT_DIR$/src/com/watabou/noosa/audio/Sample.java" />
         <option value="$PROJECT_DIR$/jni/include/JNIWwise.h" />
+        <option value="$PROJECT_DIR$/src/com/watabou/noosa/audio/Music.java" />
+        <option value="$PROJECT_DIR$/src/com/joshua/MusicObject.java" />
+        <option value="$PROJECT_DIR$/src/com/joshua/WwiseNativeWrapper.java" />
+        <option value="$PROJECT_DIR$/src/com/joshua/wwise.java" />
       </list>
     </option>
   </component>
@@ -242,10 +342,10 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -281,18 +381,8 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pixel-dungeon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pixel-dungeon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,37 +396,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="production" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pixel-dungeon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pixel-dungeon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pixel-dungeon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="obj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="armeabi-v7a" />
+              <option name="myItemId" value="joshua" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,23 +418,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="obj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="armeabi-v7a" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objs-debug" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Wwise" />
+              <option name="myItemId" value="jni" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -380,53 +432,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="obj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="armeabi-v7a" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objs-debug" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Wwise" />
+              <option name="myItemId" value="jni" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pixel-dungeon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pixel-dungeon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="obj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="armeabi-v7a" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objs-debug" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -747,11 +757,11 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31428573" sideWeight="0.6666667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31314287" sideWeight="0.6666667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972914" sideWeight="0.27438018" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39885715" sideWeight="0.19471413" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19771428" sideWeight="0.19795038" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="left" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="1.0" sideWeight="1.0" order="7" side_tool="true" content_ui="combo" x="-11" y="-11" width="1942" height="1102" />
@@ -761,12 +771,12 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.49288255" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18122977" sideWeight="0.82514286" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17714286" sideWeight="0.48489752" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24919094" sideWeight="0.48099172" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2184466" sideWeight="0.82514286" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13485715" sideWeight="0.48489752" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24865156" sideWeight="0.48099172" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32955772" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2249191" sideWeight="0.17485714" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16914286" sideWeight="0.8052859" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.065142855" sideWeight="0.80204964" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -817,88 +827,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/watabou/noosa/audio/Sample.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="42" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/watabou/pixeldungeon/levels/traps/AlarmTrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/watabou/pixeldungeon/BuildConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/watabou/pixeldungeon/windows/WndSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/watabou/noosa/Camera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/watabou/pixeldungeon/ui/StatusPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="283" column="18" selection-start-line="283" selection-start-column="18" selection-end-line="283" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/os/Looper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/os/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/app/Instrumentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1103" column="0" selection-start-line="1103" selection-start-column="0" selection-end-line="1103" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5368" column="0" selection-start-line="5368" selection-start-column="0" selection-end-line="5368" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jni/temp.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jni/AK/Tools/Common/AkArray.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jni/AK/SoundEngine/Common/AkSoundEngineExport.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.040404">
@@ -948,13 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/watabou/pixeldungeon/scenes/InterlevelScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="164" column="14" selection-start-line="164" selection-start-column="14" selection-end-line="164" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/watabou/noosa/Scene.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -966,13 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.0227275">
           <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/watabou/noosa/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1032,13 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/watabou/pixeldungeon/PixelDungeon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pixel-dungeon.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1079,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,30 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="336" column="18" selection-start-line="336" selection-start-column="18" selection-end-line="336" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/watabou/noosa/audio/Sample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="122" column="21" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/watabou/pixeldungeon/scenes/BadgesScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/watabou/pixeldungeon/Assets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="33" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1123,35 +1018,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/watabou/noosa/audio/Music.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jni/Application.mk">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jni/include/wwise.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.261906">
-          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jni/Android.mk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="278" column="37" selection-start-line="278" selection-start-column="37" selection-end-line="278" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,44 +1029,242 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.81804043">
           <caret line="492" column="27" selection-start-line="492" selection-start-column="27" selection-end-line="492" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jni/Android.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="278" column="37" selection-start-line="278" selection-start-column="37" selection-end-line="278" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/watabou/pixeldungeon/scenes/InterlevelScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="140" column="40" selection-start-line="140" selection-start-column="40" selection-end-line="140" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/watabou/pixeldungeon/actors/blobs/SacrificialFire.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/watabou/pixeldungeon/actors/buffs/Shadows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/watabou/pixeldungeon/actors/Char.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="204" column="32" selection-start-line="204" selection-start-column="32" selection-end-line="204" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/watabou/pixeldungeon/items/food/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/watabou/pixeldungeon/Assets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="132" column="31" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/watabou/pixeldungeon/scenes/BadgesScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/opengl/GLSurfaceView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1530" column="0" selection-start-line="1530" selection-start-column="0" selection-end-line="1530" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/watabou/pixeldungeon/PixelDungeon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="296" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/watabou/noosa/TouchArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/watabou/input/Touchscreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/watabou/noosa/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/watabou/pixeldungeon/windows/WndSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13700384">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/watabou/noosa/audio/Sample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.547619">
+          <caret line="115" column="13" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2670#2671#0" expanded="true" />
+            <element signature="e#2703#2704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/watabou/noosa/audio/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="19.690475">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="e#2190#2191#0" expanded="true" />
+            <element signature="e#2226#2227#0" expanded="true" />
+            <element signature="e#2252#2253#0" expanded="true" />
+            <element signature="e#2289#2290#0" expanded="true" />
+            <element signature="e#2470#2471#0" expanded="true" />
+            <element signature="e#2496#2497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/joshua/MusicObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="49" />
+          <folding>
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jni/include/JNIWwise.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-54.375">
+          <caret line="183" column="14" selection-start-line="183" selection-start-column="14" selection-end-line="183" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jni/include/JNIWwise.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.875">
+          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jni/include/wwise.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.75">
+          <caret line="37" column="96" selection-start-line="37" selection-start-column="89" selection-end-line="37" selection-end-column="96" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jni/include/wwise.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.87903225">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/joshua/WwiseNativeWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/joshua/wwise.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.318182">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.39027777">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="26" selection-end-column="35" />
           <folding>
-            <element signature="e#1171#1172#0" expanded="true" />
-            <element signature="e#1196#1197#0" expanded="true" />
-            <element signature="e#1521#1522#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#1551#1552#0" expanded="true" />
+            <element signature="e#1578#1579#0" expanded="true" />
+            <element signature="e#1636#1637#0" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1749#1750#0" expanded="true" />
+            <element signature="e#1806#1807#0" expanded="true" />
+            <element signature="e#1833#1834#0" expanded="true" />
+            <element signature="e#1891#1892#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#2183#2184#0" expanded="true" />
+            <element signature="e#2348#2349#0" expanded="true" />
+            <element signature="e#2416#2417#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jni/include/JNIWwise.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.4125">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jni/include/JNIWwise.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68727916">
-          <caret line="199" column="12" selection-start-line="199" selection-start-column="12" selection-end-line="199" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>

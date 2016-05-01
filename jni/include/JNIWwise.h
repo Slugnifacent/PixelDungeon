@@ -1,6 +1,5 @@
 //
 // Created by Joshua on 4/24/2016.
-//
 
 #ifndef PIXEL_DUNGEON_JNIWWISE_H
 #define PIXEL_DUNGEON_JNIWWISE_H
@@ -38,11 +37,12 @@ private:
     bool LoadBank(JNIEnv *env,jstring Bankname);
 public:
 	bool Initialize(JavaVM* VM,JNIEnv *env, jobject thisObj);
-	bool ProcessAudio();
-	bool Close();
 	bool LoadBank(const char * Bankname);
-	bool PostEvent(const char * Event,int GameObjectID);
-	bool RegisterGameObject(const char * Event,int GameObjectID);
+    bool RegisterGameObject(const char * Event,int GameObjectID);
+    bool ProcessAudio();
+	bool Close();
+
+	bool PostEvent(const char * Event,int GameObjectID, bool Process = false);
 };
 
 namespace AK

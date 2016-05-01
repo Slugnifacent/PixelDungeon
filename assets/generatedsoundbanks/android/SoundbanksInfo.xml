@@ -3,7 +3,7 @@
 	<RootPaths>
 		<ProjectRoot>D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\</ProjectRoot>
 		<SourceFilesRoot>D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<SoundBanksRoot>D:\pixel-dungeon\pixel-dungeon\assets\generatedsoundbanks\android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\GeneratedSoundBanks\Android\</ExternalSourcesOutputRoot>
 	</RootPaths>
@@ -19,6 +19,7 @@
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3864097025" Name="Pause_All"/>
 				<Event Id="216639764" Name="Play_game"/>
 				<Event Id="3158210548" Name="Play_snd_alert"/>
 				<Event Id="1576518167" Name="Play_snd_badge"/>
@@ -68,6 +69,8 @@
 				<Event Id="2970788695" Name="Play_snd_zap"/>
 				<Event Id="1439313559" Name="Play_surface"/>
 				<Event Id="2479442773" Name="Play_theme"/>
+				<Event Id="3679762312" Name="Resume_All"/>
+				<Event Id="452547817" Name="Stop_All"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="38206695" Language="SFX">
@@ -81,10 +84,6 @@
 				<File Id="97418914" Language="SFX">
 					<ShortName>Raw Music\snd_lullaby.wav</ShortName>
 					<Path>SFX\Raw Music\snd_lullaby_9E69E797.wem</Path>
-				</File>
-				<File Id="140721021" Language="SFX">
-					<ShortName>Raw Music\game.wav</ShortName>
-					<Path>SFX\Raw Music\game_9E69E797.wem</Path>
 				</File>
 				<File Id="174859356" Language="SFX">
 					<ShortName>Raw Music\snd_falling.wav</ShortName>
@@ -148,7 +147,7 @@
 				</File>
 				<File Id="500596097" Language="SFX">
 					<ShortName>Raw Music\surface.wav</ShortName>
-					<Path>SFX\Raw Music\surface_9E69E797.wem</Path>
+					<Path>SFX\Raw Music\surface_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="503110699" Language="SFX">
 					<ShortName>Raw Music\snd_bones.wav</ShortName>
@@ -236,7 +235,7 @@
 				</File>
 				<File Id="843061650" Language="SFX">
 					<ShortName>Raw Music\theme.wav</ShortName>
-					<Path>SFX\Raw Music\theme_9E69E797.wem</Path>
+					<Path>SFX\Raw Music\theme_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="848554783" Language="SFX">
 					<ShortName>Raw Music\snd_drink.wav</ShortName>
@@ -245,6 +244,10 @@
 				<File Id="896896183" Language="SFX">
 					<ShortName>Raw Music\snd_boss.wav</ShortName>
 					<Path>SFX\Raw Music\snd_boss_9E69E797.wem</Path>
+				</File>
+				<File Id="898191855" Language="SFX">
+					<ShortName>Rihanna.wav</ShortName>
+					<Path>SFX\Rihanna_9E69E797.wem</Path>
 				</File>
 				<File Id="930930626" Language="SFX">
 					<ShortName>Raw Music\snd_degrade.wav</ShortName>

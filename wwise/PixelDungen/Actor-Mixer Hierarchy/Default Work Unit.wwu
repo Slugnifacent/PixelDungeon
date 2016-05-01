@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{B8B63765-ACD8-40AD-A4DE-5644D5FD2AA7}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="game" ID="{D3D4707A-1807-4E2A-8161-B3939A81EEE3}" ShortID="336438002" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3451EB23-9A79-40F5-A88C-9617E5596507}"/>
@@ -897,6 +900,9 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="surface" ID="{9A0803F6-47E8-4050-A177-F4F805540603}" ShortID="194795862" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3451EB23-9A79-40F5-A88C-9617E5596507}"/>
@@ -916,6 +922,9 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="theme" ID="{8689852F-4F3E-47B4-9FC5-677A5B6C5274}" ShortID="257912067" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3451EB23-9A79-40F5-A88C-9617E5596507}"/>
@@ -932,6 +941,25 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="theme" ID="{D5674713-9219-461C-971D-7D6AF0A94A8C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Rihanna" ID="{245C3FC0-93BE-455C-8874-CC0A85605AF1}" ShortID="919310709" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3451EB23-9A79-40F5-A88C-9617E5596507}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46567C1C-DC1C-4548-A10C-003D7425518C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Rihanna" ID="{E34AE507-9462-4283-9550-6A45EC8BA031}" ShortID="898191855">
+							<Language>SFX</Language>
+							<AudioFile>Rihanna.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Rihanna" ID="{E34AE507-9462-4283-9550-6A45EC8BA031}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

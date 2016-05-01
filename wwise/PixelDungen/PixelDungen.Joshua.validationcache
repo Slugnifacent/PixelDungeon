@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="70">
-	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2759645659" DateHigh="30513397"/>
+	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1889633439" DateHigh="30515666"/>
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Attenuations\Default Work Unit.wwu" DateLow="1465692138" DateHigh="30513386"/>
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Control Surface Sessions\Default Work Unit.wwu" DateLow="1465742201" DateHigh="30513386"/>
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Conversion Settings\Default Work Unit.wwu" DateLow="1468790150" DateHigh="30513386"/>
@@ -8,18 +8,18 @@
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1468815024" DateHigh="30513386"/>
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Effects\Default Work Unit.wwu" DateLow="1465802146" DateHigh="30513386"/>
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Effects\Factory Effects.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Events\Default Work Unit.wwu" DateLow="2740475971" DateHigh="30513475"/>
+	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Events\Default Work Unit.wwu" DateLow="1889681816" DateHigh="30515666"/>
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Game Parameters\Default Work Unit.wwu" DateLow="1468830841" DateHigh="30513386"/>
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1465877236" DateHigh="30513386"/>
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1465652502" DateHigh="30513386"/>
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Mixing Sessions\Default Work Unit.wwu" DateLow="1468760139" DateHigh="30513386"/>
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Modulators\Default Work Unit.wwu" DateLow="1465717068" DateHigh="30513386"/>
-	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\PixelDungen.Joshua.wsettings" DateLow="3045987689" DateHigh="30513762"/>
+	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\PixelDungen.Joshua.wsettings" DateLow="1049802516" DateHigh="30515684"/>
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\PixelDungen.wproj" DateLow="1465622478" DateHigh="30513386"/>
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Presets\Default Work Unit.wwu" DateLow="1465817165" DateHigh="30513386"/>
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Queries\Default Work Unit.wwu" DateLow="1465857226" DateHigh="30513386"/>
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Queries\Factory Queries.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\SoundBanks\Default Work Unit.wwu" DateLow="2740515925" DateHigh="30513475"/>
+	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\SoundBanks\Default Work Unit.wwu" DateLow="3274345193" DateHigh="30515483"/>
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1465842308" DateHigh="30513386"/>
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\States\Default Work Unit.wwu" DateLow="1465892254" DateHigh="30513386"/>
 	<ValidationCacheItem File="D:\pixel-dungeon\pixel-dungeon\wwise\PixelDungen\Switches\Default Work Unit.wwu" DateLow="1465762115" DateHigh="30513386"/>

@@ -179,8 +179,9 @@ bool JNIWwise::LoadBank(const char * Bankname){
 	return true;
 }
 
-bool JNIWwise::PostEvent(const char * Event,int GameObjectID){
+bool JNIWwise::PostEvent(const char * Event,int GameObjectID, bool Process){
     AK::SoundEngine::PostEvent(Event, GameObjectID);
+	if(Process) ProcessAudio();
     LOG( "Event: %s Posted",Event);
     return true;
 }

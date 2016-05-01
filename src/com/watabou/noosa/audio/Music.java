@@ -17,48 +17,40 @@
 
 package com.watabou.noosa.audio;
 
-import java.io.IOException;
+import com.joshua.Util;
+import com.joshua.Wwise;
+import com.joshua.WwiseEvent;
 
-import com.joshua.MusicObject;
-import com.watabou.noosa.Game;
-
-import android.content.res.AssetFileDescriptor;
-import android.media.AudioManager;
 import android.media.MediaPlayer;
-
-import com.joshua.wwise;
-import com.joshua.MusicObject;
 
 public enum Music implements MediaPlayer.OnPreparedListener, MediaPlayer.OnErrorListener {
 	
 	INSTANCE;
-	
-	private MediaPlayer player;
+
 	String songplaying;
 	private String lastPlayed;
 	private boolean lastLooping;
-	private MusicObject music;
-	
-	private boolean enabled = false;
 
-	public static wwise wise;
+	private boolean enabled = false;
+	WwiseEvent OST;
 
 	public void Initialize()
 	{
-		wise = new wwise();
-		wise.Init();
+		Wwise.GetInstance().Init();
+		Wwise.GetInstance().LoadBank("Init.bnk");
+		Wwise.GetInstance().LoadBank("SoundBank.bnk");
+		OST = new WwiseEvent("OST","",200);
 		songplaying="";
-		music = new MusicObject("Current Music",200);
 	}
 
 	public void Update()
 	{
-		wise.Update();
+		Wwise.GetInstance().Update();
 	}
 
 
 	public void Exit() {
-		wise.Exit();
+		Wwise.GetInstance().Exit();
 	}
 
 
@@ -69,19 +61,18 @@ public enum Music implements MediaPlayer.OnPreparedListener, MediaPlayer.OnError
 		lastLooping = looping;
 
 		if(enabled) {
-			if (wise != null) {
-				if (assetName.compareTo(songplaying) != 0) {
-					wise.Stop();
-					wise.Play(assetName, looping);
-					songplaying = assetName;
-				}
+			if (assetName.compareTo(songplaying) != 0) {
+				OST.Stop();
+				OST.SetEventName(Util.ConformEventNameFromMP3(assetName));
+				OST.Post();
+				songplaying = assetName;
 			}
 		}
 	}
 	
 	public void mute() {
 		lastPlayed = null;
-		if(wise != null) wise.Mute();
+		OST.Mute();
 	}
 
 	@Override
@@ -91,34 +82,27 @@ public enum Music implements MediaPlayer.OnPreparedListener, MediaPlayer.OnError
 	
 	@Override
 	public boolean onError( MediaPlayer mp, int what, int extra ) {
-		if (player != null) {
-			player.release();
-			player = null;
-		}
 		return true;
 	}
 	
 	public void pause() {
-		if(wise != null) wise.Pause();
+		OST.Pause();
 	}
 	
 	public void resume() {
-		if(wise != null) wise.Resume();
+		OST.Resume();
 	}
 	
 	public void stop() {
-
-		if(wise != null){
-			wise.Stop();
-		}
+		OST.Stop();
 	}
 	
 	public void volume( float value ) {
-		if(wise != null) wise.Volume(value);
+		Wwise.GetInstance().Volume(value);
 	}
 	
 	public boolean isPlaying() {
-		return wise != null;
+		return OST.isPlaying();
 	}
 	
 	public void enable( boolean value ) {

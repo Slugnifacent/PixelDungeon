@@ -41,8 +41,14 @@ public:
     bool RegisterGameObject(const char * Event,int GameObjectID);
     bool ProcessAudio();
 	bool Close();
-
 	bool PostEvent(const char * Event,int GameObjectID, bool Process = false);
+    bool StopEvent(const char * Event, int GameObjectID,bool Process = false);
+    bool PauseEvent(const char * Event, int GameObjectID,bool Process = false);
+    bool ResumeEvent(const char * Event, int GameObjectID,bool Process = false);
+	bool ExecuteActionOnEvent(const char * Event,
+	    AK::SoundEngine::AkActionOnEventType Action,
+	    int GameObjectID,
+	    bool Process = false);
 };
 
 namespace AK

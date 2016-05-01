@@ -135,9 +135,9 @@ public class PixelDungeon extends Game {
 		if (Preferences.INSTANCE.getBoolean( Preferences.KEY_LANDSCAPE, false ) != landscape) {
 			landscape( !landscape );
 		}
-		
-		Music.INSTANCE.enable( music() );
+
 		Music.INSTANCE.Initialize();
+		Music.INSTANCE.enable(music());
 		Sample.INSTANCE.enable( soundFx() );
 		
 		Sample.INSTANCE.load( 

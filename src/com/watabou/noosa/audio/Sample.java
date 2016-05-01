@@ -17,17 +17,12 @@
 
 package com.watabou.noosa.audio;
 
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.LinkedList;
-
-import com.watabou.noosa.Game;
-import com.watabou.pixeldungeon.Assets;
-
-import android.content.res.AssetFileDescriptor;
-import android.content.res.AssetManager;
-import android.media.AudioManager;
 import android.media.SoundPool;
+
+import com.joshua.Util;
+import com.joshua.Wwise;
 
 public enum Sample implements SoundPool.OnLoadCompleteListener {
 	
@@ -38,17 +33,17 @@ public enum Sample implements SoundPool.OnLoadCompleteListener {
 	private LinkedList<String> loadingQueue = new LinkedList<String>();
 	protected HashMap<Object, Integer> ids = new HashMap<Object, Integer>();
 	private boolean enabled = false;
-	
+
 	public void reset() {
-		Music.INSTANCE.wise.Reset();
+		Wwise.GetInstance().Reset();
 	}
 	
 	public void pause() {
-		Music.INSTANCE.wise.Pause();
+		Wwise.GetInstance().Pause();
 	}
 	
 	public void resume() {
-		Music.INSTANCE.wise.Resume();
+		Wwise.GetInstance().Resume();
 	}
 
 	public void load( String... assets ) {
@@ -101,7 +96,13 @@ public enum Sample implements SoundPool.OnLoadCompleteListener {
 	}
 	
 	public int play( Object id, float leftVolume, float rightVolume, float rate ) {
-		if(isEnabled()) Music.INSTANCE.wise.Play(id.toString(),false);
+		if(isEnabled()) {
+			Wwise.GetInstance().Post(
+					Util.ConformEventNameFromMP3(
+							id.toString()
+					)
+			);
+		}
 		return 0;
 	}
 	

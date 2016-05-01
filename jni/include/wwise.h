@@ -17,14 +17,15 @@ JNIWwise wwise;
 jint JNI_OnLoad(JavaVM* vm, void* reserved);
 
 extern "C" {
-	JNIEXPORT jboolean JNICALL Java_com_joshua_wwise_Initialize(JNIEnv *env, jobject thisObj);
-	JNIEXPORT jstring  JNICALL Java_com_joshua_wwise_ProcessAudio(JNIEnv *env, jobject thisObj);
-	JNIEXPORT jstring  JNICALL Java_com_joshua_wwise_Close(JNIEnv *env, jobject thisObj);
-	JNIEXPORT jboolean JNICALL Java_com_joshua_wwise_LoadBank(JNIEnv *env, jobject thisObj,jstring Bankname);
-
-	JNIEXPORT jboolean JNICALL Java_com_joshua_wwise_RegisterGameObject(JNIEnv *env, jobject thisObj,jstring MonitorName,jint GameObjectID);
-
-	JNIEXPORT jboolean JNICALL Java_com_joshua_wwise_PostEvent(JNIEnv *env, jobject thisObj,jstring Event,jint GameObjectID,jboolean Process);
+	JNIEXPORT jboolean JNICALL Java_com_joshua_WwiseNativeWrapper_Initialize(JNIEnv *env, jobject thisObj);
+	JNIEXPORT jstring  JNICALL Java_com_joshua_WwiseNativeWrapper_ProcessAudio(JNIEnv *env, jobject thisObj);
+	JNIEXPORT jstring  JNICALL Java_com_joshua_WwiseNativeWrapper_Close(JNIEnv *env, jobject thisObj);
+	JNIEXPORT jboolean JNICALL Java_com_joshua_WwiseNativeWrapper_LoadBank(JNIEnv *env, jobject thisObj,jstring Bankname);
+	JNIEXPORT jboolean JNICALL Java_com_joshua_WwiseNativeWrapper_RegisterGameObject(JNIEnv *env, jobject thisObj,jstring MonitorName,jint GameObjectID);
+	JNIEXPORT jboolean JNICALL Java_com_joshua_WwiseNativeWrapper_PostEvent(JNIEnv *env,   jobject thisObj,jstring Event,jint GameObjectID,jboolean Process);
+	JNIEXPORT jboolean JNICALL Java_com_joshua_WwiseNativeWrapper_StopEvent(JNIEnv *env,   jobject thisObj,jstring Event,jint GameObjectID,jboolean Process);
+    JNIEXPORT jboolean JNICALL Java_com_joshua_WwiseNativeWrapper_PauseEvent(JNIEnv *env,  jobject thisObj,jstring Event,jint GameObjectID,jboolean Process);
+    JNIEXPORT jboolean JNICALL Java_com_joshua_WwiseNativeWrapper_ResumeEvent(JNIEnv *env, jobject thisObj,jstring Event,jint GameObjectID,jboolean Process);
 }
 
 

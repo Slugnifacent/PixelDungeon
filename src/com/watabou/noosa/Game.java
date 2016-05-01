@@ -22,7 +22,6 @@ import java.util.ArrayList;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-import com.joshua.wwise;
 import com.watabou.glscripts.Script;
 import com.watabou.gltextures.TextureCache;
 import com.watabou.input.Keys;
@@ -93,7 +92,6 @@ public class Game extends Activity implements GLSurfaceView.Renderer, View.OnTou
 	@Override
 	protected void onCreate( Bundle savedInstanceState ) {
 		super.onCreate( savedInstanceState );
-		wwise.context = this;
 		BitmapCache.context = TextureCache.context = instance = this;
 		
 		DisplayMetrics m = new DisplayMetrics();

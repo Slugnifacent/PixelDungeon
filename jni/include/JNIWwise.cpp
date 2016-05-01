@@ -17,14 +17,14 @@ bool JNIWwise::Initialize(JavaVM* VM,JNIEnv *env, jobject thisObj)
 
 bool JNIWwise::InitAndroidIO(JavaVM* VM,JNIEnv *env, jobject thisObj)
 {
-    jclass cls = env->GetObjectClass(thisObj);
-    jmethodID mid = env->GetMethodID(cls, "getNativeActivity", "()Landroid/content/Context;");
+    jclass cls = env->FindClass("com/joshua/WwiseNativeWrapper");
+    jmethodID mid = env->GetStaticMethodID(cls, "getNativeActivity", "()Landroid/content/Context;");
     if (mid == 0)
     {
-        LOG("Message: %s","Could not create the memory manager.");
+        LOG("Message: %s","Could not find getNativeActivity.");
         return false;
     }
-    jobject clsObj = env->CallObjectMethod(thisObj, mid);
+    jobject clsObj = env->CallStaticObjectMethod(cls, mid);
     //NativeClass = reinterpret_cast<jobject>(env->NewGlobalRef(clsObj));
 
     // InitAndroidIO
@@ -183,6 +183,44 @@ bool JNIWwise::PostEvent(const char * Event,int GameObjectID, bool Process){
     AK::SoundEngine::PostEvent(Event, GameObjectID);
 	if(Process) ProcessAudio();
     LOG( "Event: %s Posted",Event);
+    return true;
+}
+
+bool JNIWwise::StopEvent(const char * Event, int GameObjectID,bool Process)
+{
+	return ExecuteActionOnEvent(
+		Event,
+		AK::SoundEngine::AkActionOnEventType_Stop,
+		GameObjectID,
+		Process);
+}
+
+bool JNIWwise::PauseEvent(const char * Event, int GameObjectID,bool Process)
+{
+	return ExecuteActionOnEvent(
+		Event,
+		AK::SoundEngine::AkActionOnEventType_Pause,
+		GameObjectID,
+		Process);
+}
+
+bool JNIWwise::ResumeEvent(const char * Event, int GameObjectID,bool Process)
+{
+	return ExecuteActionOnEvent(
+		Event,
+		AK::SoundEngine::AkActionOnEventType_Resume,
+		GameObjectID,
+		Process);
+ }
+
+
+bool JNIWwise::ExecuteActionOnEvent(const char * Event,
+                                    	    AK::SoundEngine::AkActionOnEventType Action,
+                                    	    int GameObjectID,
+                                    	    bool Process){
+    AK::SoundEngine::ExecuteActionOnEvent(Event, Action,GameObjectID);
+	if(Process) ProcessAudio();
+    LOG( "Event: %s ExecuteActionOnEvent",Event);
     return true;
 }
 

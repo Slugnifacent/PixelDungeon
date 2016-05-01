@@ -16,7 +16,7 @@ jint JNI_OnLoad(JavaVM* vm, void* reserved)
 	return JNI_VERSION_1_6;
 }
 
-JNIEXPORT jboolean JNICALL Java_com_joshua_wwise_Initialize(JNIEnv *env, jobject thisObj) {
+JNIEXPORT jboolean JNICALL Java_com_joshua_WwiseNativeWrapper_Initialize(JNIEnv *env, jobject thisObj) {
     if(!wwise.Initialize(VM,env,thisObj))
     {
         return JNI_FALSE;
@@ -24,7 +24,7 @@ JNIEXPORT jboolean JNICALL Java_com_joshua_wwise_Initialize(JNIEnv *env, jobject
     return JNI_TRUE;
 }
 
-JNIEXPORT jboolean JNICALL Java_com_joshua_wwise_PostEvent(JNIEnv *env, jobject thisObj,jstring Event,jint GameObjectID,jboolean Process) {
+JNIEXPORT jboolean JNICALL Java_com_joshua_WwiseNativeWrapper_PostEvent(JNIEnv *env, jobject thisObj,jstring Event,jint GameObjectID,jboolean Process) {
    const char *nativeString = env->GetStringUTFChars(Event, 0);
    if(!wwise.PostEvent(nativeString,GameObjectID,Process))
    {
@@ -35,7 +35,40 @@ JNIEXPORT jboolean JNICALL Java_com_joshua_wwise_PostEvent(JNIEnv *env, jobject 
     return JNI_TRUE;
 }
 
-JNIEXPORT jboolean JNICALL Java_com_joshua_wwise_RegisterGameObject(JNIEnv *env, jobject thisObj,jstring MonitorName,jint GameObjectID) {
+JNIEXPORT jboolean JNICALL Java_com_joshua_WwiseNativeWrapper_StopEvent(JNIEnv *env, jobject thisObj,jstring Event,jint GameObjectID,jboolean Process) {
+   const char *nativeString = env->GetStringUTFChars(Event, 0);
+   if(!wwise.StopEvent(nativeString,GameObjectID,Process))
+   {
+       env->ReleaseStringUTFChars( Event, nativeString);
+       return JNI_FALSE;
+   }
+    env->ReleaseStringUTFChars( Event, nativeString);
+    return JNI_TRUE;
+}
+
+JNIEXPORT jboolean JNICALL Java_com_joshua_WwiseNativeWrapper_PauseEvent(JNIEnv *env, jobject thisObj,jstring Event,jint GameObjectID,jboolean Process) {
+   const char *nativeString = env->GetStringUTFChars(Event, 0);
+   if(!wwise.PauseEvent(nativeString,GameObjectID,Process))
+   {
+       env->ReleaseStringUTFChars( Event, nativeString);
+       return JNI_FALSE;
+   }
+    env->ReleaseStringUTFChars( Event, nativeString);
+    return JNI_TRUE;
+}
+
+JNIEXPORT jboolean JNICALL Java_com_joshua_WwiseNativeWrapper_ResumeEvent(JNIEnv *env, jobject thisObj,jstring Event,jint GameObjectID,jboolean Process) {
+   const char *nativeString = env->GetStringUTFChars(Event, 0);
+   if(!wwise.ResumeEvent(nativeString,GameObjectID,Process))
+   {
+       env->ReleaseStringUTFChars( Event, nativeString);
+       return JNI_FALSE;
+   }
+    env->ReleaseStringUTFChars( Event, nativeString);
+    return JNI_TRUE;
+}
+
+JNIEXPORT jboolean JNICALL Java_com_joshua_WwiseNativeWrapper_RegisterGameObject(JNIEnv *env, jobject thisObj,jstring MonitorName,jint GameObjectID) {
 	const char *nativeString = env->GetStringUTFChars(MonitorName, 0);
     if(!wwise.RegisterGameObject(nativeString,GameObjectID))
     {
@@ -46,7 +79,7 @@ JNIEXPORT jboolean JNICALL Java_com_joshua_wwise_RegisterGameObject(JNIEnv *env,
     return JNI_TRUE;
 }
 
-JNIEXPORT jboolean JNICALL Java_com_joshua_wwise_LoadBank(JNIEnv *env, jobject thisObj,jstring Bankname) {
+JNIEXPORT jboolean JNICALL Java_com_joshua_WwiseNativeWrapper_LoadBank(JNIEnv *env, jobject thisObj,jstring Bankname) {
     const char *nativeString = env->GetStringUTFChars(Bankname, 0);
     if(!wwise.LoadBank(nativeString))
     {
@@ -57,12 +90,12 @@ JNIEXPORT jboolean JNICALL Java_com_joshua_wwise_LoadBank(JNIEnv *env, jobject t
     return JNI_TRUE;
 }
 
-JNIEXPORT jstring JNICALL Java_com_joshua_wwise_ProcessAudio(JNIEnv *env, jobject thisObj) {
+JNIEXPORT jstring JNICALL Java_com_joshua_WwiseNativeWrapper_ProcessAudio(JNIEnv *env, jobject thisObj) {
 	wwise.ProcessAudio();
 	return env->NewStringUTF("");
 }
 
-JNIEXPORT jstring JNICALL Java_com_joshua_wwise_Close(JNIEnv *env, jobject thisObj) {
+JNIEXPORT jstring JNICALL Java_com_joshua_WwiseNativeWrapper_Close(JNIEnv *env, jobject thisObj) {
     wwise.Close();
 	return env->NewStringUTF("Wwise Exited");
 }
